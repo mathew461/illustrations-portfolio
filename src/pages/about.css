@@ -1,0 +1,45 @@
+/*About Page Layout*/
+.centre {
+	margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+}
+.lower_h2 {
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: bold;
+	color: #990f3d;
+	text-align: center;
+	margin: 0.5rem;
+}
+.lower_p {
+	padding: 0.4rem;
+	margin: 0;
+	line-height: 1.5;
+	font-size: 1rem;
+	margin-left: auto;
+    margin-right: auto;
+	width: 17em;
+}
+.display_pic {
+	border-radius: 32.8125rem; /* round edges */
+	width: 9rem;
+	border: 1px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 40rem) {
+	.centre {
+		width: 37em;
+	}
+	.lower_p {
+		font-size: 1rem;
+		width: 37em;
+		padding: 0.4rem;
+	}	
+	.display_pic {
+		width: 14rem;
+	}
+}

@@ -1,5 +1,18 @@
 import React from "react"
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Gallery from '../components/Gallery';
+import './index.css';
 
-export default function Home() {
-  return <div>Hello world!</div>
+const indexPage = () => {
+  return (
+    <div>
+        <Header />
+        <Gallery />
+    
+        <Footer />
+    </div>
+  )
 }
+
+export default indexPage;
