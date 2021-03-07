@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './imageCard.css'
 
 class ImageCard extends React.Component {
     constructor(props) {
@@ -23,7 +23,26 @@ class ImageCard extends React.Component {
      };
 
     render() {
+
+// This is the Lightbox code from the HTML version of this site. It works perfect there, but here seems to be causing problems.                              
+        const lightbox = document.createElement('div')
+        lightbox.id = 'lightbox'
+        document.body.appendChild(lightbox)
         
+        const images = document.querySelectorAll('img')
+        images.forEach(image => {
+            image.addEventListener('click', e => {
+                lightbox.classList.add('active')
+                const img = document.createElement('img')
+                img.src = image.src
+                while (lightbox.firstChild) {
+                    lightbox.removeChild(lightbox.firstChild)
+                }
+                lightbox.appendChild(img)
+            })
+        })
+//End of Lightbox Code
+
         return (
             <div style={{ gridRowEnd: `span ${this.state.spans}` }}>
                 <img

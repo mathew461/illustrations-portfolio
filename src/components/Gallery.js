@@ -16,7 +16,6 @@ import MonkeyAstronaut from '../links-and-images/Monkey-Astronaut.png'
 import RebelliousGnome from '../links-and-images/Rebellious-Gnome.png'
 import PokemonConcept from '../links-and-images/Pokemon-Concept.png'
 
-
 const Gallery = () => {
     return (
         <div>
@@ -38,6 +37,5 @@ const Gallery = () => {
         
     );
 }
-
 
 export default Gallery;
