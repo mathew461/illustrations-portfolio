@@ -16,7 +16,14 @@ import MonkeyAstronaut from '../links-and-images/Monkey-Astronaut.png'
 import RebelliousGnome from '../links-and-images/Rebellious-Gnome.png'
 import PokemonConcept from '../links-and-images/Pokemon-Concept.png'
 
-const Gallery = () => {
+const galleryImages = [
+    AnimalKingdom1, AnimalKingdom2, AnimalKingdom3, AnimalKingdom4, 
+    AnimalKingdom5, AnimalKingdom6, ChocoboPrototype, KillTheBear,
+    GasmaskCat, MonkeyAstronaut, RebelliousGnome, PokemonConcept 
+]
+
+
+const Gallery = (props) => {
     return (
         <div>
             <div className = "grid">
@@ -34,7 +41,6 @@ const Gallery = () => {
                 <ImageCard src = {GasmaskCat}/>  
             </div>
         </div>
-        
     );
 }
 
