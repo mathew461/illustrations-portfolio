@@ -43,10 +43,6 @@ export default ImageCard;
 
 
 
-
-
-
-
 // I want to use this component in my Portfolio project. 
 //This component was built during 10. Using Ref's for DOM Access: 3. Creating an Image Card Component
 // ImageList.JS is where this Component is connected to. We will have to work out what file in Portfolio will be neccesary {The file with the Grid component}
