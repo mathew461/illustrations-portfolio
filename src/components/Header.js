@@ -11,7 +11,10 @@ const Header = () => {
             <nav>
                 <ul className = "right header_nav">
                     <li className = "header_nav__list">
-                        <Link className = "header_nav__button" to="/">Gallery</Link>
+                        <Link className = "header_nav__button" to="/">Home</Link>
+                    </li>
+                    <li className = "header_nav__list">
+                        <Link className = "header_nav__button" to="/theGallery">Gallery</Link>
                     </li>
                     <li className = "header_nav__list">
                         <Link className = "header_nav__button" to="/about">About Me</Link>

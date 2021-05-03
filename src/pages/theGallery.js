@@ -8,6 +8,7 @@ const indexPage = () => {
   return (
     <div>
         <Header />
+        <Gallery />
     
         <Footer />
     </div>

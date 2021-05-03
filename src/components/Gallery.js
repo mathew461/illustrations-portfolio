@@ -17,8 +17,8 @@ import RebelliousGnome from '../links-and-images/Rebellious-Gnome.png'
 import PokemonConcept from '../links-and-images/Pokemon-Concept.png'
 
 
-
 class Gallery extends React.Component {
+
     componentDidMount() {
                 // This is the Lightbox code from the HTML version of this site. It works perfect there, but here seems to be causing problems.                              
                 const lightbox = document.createElement('div')
