@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #990f3d;
 }
 .WelcomeNav_li {
     float: left;
@@ -26,7 +26,6 @@
 .WelcomeNav_li a:hover {
     background-color: #111111;
 }
-
 
 .WelcomeImage {
     float: right;
