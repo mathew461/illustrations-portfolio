@@ -1,15 +1,13 @@
 import React from "react"
-import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Gallery from '../components/Gallery';
 import './index.css';
+import TitleNav from "../components/TitleNav"
 
 const indexPage = () => {
   return (
     <div>
-        <Header />
-    
-        <Footer />
+      <TitleNav />
+      <Footer />
     </div>
   )
 }
