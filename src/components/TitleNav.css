@@ -1,5 +1,21 @@
+.flex-center-vertically {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    position: absolute;
+    margin-left: 12px;
+}
 .WelcomeTitle {
-    
+    color: black;
+    -webkit-text-fill-color: #fff1e5; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #990f3d;
+    font-size: 80px;
+    font-family: 'Finger Paint', cursive;
+    margin: 0;
 }
 
 .WelcomeNav {
@@ -29,5 +45,7 @@
 
 .WelcomeImage {
     float: right;
-    width: 55%;
+    width: 500px;
+    position: relative;
+    align-content: center;   
 }

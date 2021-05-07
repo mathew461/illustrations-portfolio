@@ -3,8 +3,19 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
-
+ 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
+  plugins: [
+     {
+       resolve: `gatsby-plugin-prefetch-google-fonts`,
+       options: {
+         fonts: [
+           {
+             family: `Finger Paint`,
+             variants: [`400`, `700`]
+           },
+         ],
+       },
+     }
+   ]
+ }
