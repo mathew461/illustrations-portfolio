@@ -1,14 +1,14 @@
 .flex-center-vertically {
-    display: flex;
-    flex-direction: column;
     height: 400px;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: center;
-    position: absolute;
     margin-left: 12px;
+    position: relative;
 }
 .WelcomeTitle {
+    position: absolute;
+    top: 29%;
+    left: 42%;
+    width: 50%;
+    transform: translate(-50%, -50%);
     color: black;
     -webkit-text-fill-color: #fff1e5; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
@@ -18,20 +18,23 @@
 }
 
 .WelcomeNav {
-    display: inline;
-    float: left;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    top: 45%;
+    left: 63%;
+    width: 100%;
 }
 .WelcomeNav_ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #990f3d;
 }
 .WelcomeNav_li {
     float: left;
 }
 .WelcomeNav_li a {
+    overflow: hidden;
+    background-color: #990f3d;
     display: block;
     color: white;
     text-align: center;
@@ -43,8 +46,30 @@
 }
 
 .WelcomeImage {
-    float: right;
-    width: 500px;
-    position: relative;
-    align-content: center;   
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.WelcomeImage__Div {
+   position:relative;
+   height: 1000%;
+}
+
+
+    
+
+@media (min-width: 40rem) {
+    .WelcomeTitle {
+        top: 81%;
+        left: 34%;
+    }    
+    .WelcomeNav {
+        top: 100%;
+        left: 32%;
+        width: 50%;
+    }
+        
 }

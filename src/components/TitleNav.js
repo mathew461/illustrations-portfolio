@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import './TitleNav.css';
 import SketchArtist from '../links-and-images/Welcome_Page_Artist.png';
 
-
 const TitleNav = () => {
 
     return (
@@ -27,14 +26,12 @@ const TitleNav = () => {
                     </ul>
                 </nav>
             </div>
-            
-            <img src={SketchArtist} className="WelcomeImage"/>   
-        </div>
 
-        
-        
+            <div className="WelcomeImage__Div">
+                <img src={SketchArtist} className="WelcomeImage"/>
+            </div>
+        </div>
     )
 };
-
 
 export default TitleNav;
