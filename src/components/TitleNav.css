@@ -6,7 +6,7 @@
 .WelcomeTitle {
     position: absolute;
     top: 29%;
-    left: 42%;
+    left: 40%;
     width: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -15,6 +15,7 @@
     -webkit-text-stroke-color: #990f3d;
     font-size: 80px;
     margin: 0;
+    font-family: Cursive;
 }
 
 .WelcomeNav {
@@ -64,7 +65,7 @@
 @media (min-width: 40rem) {
     .WelcomeTitle {
         top: 81%;
-        left: 34%;
+        left: 32%;
     }    
     .WelcomeNav {
         top: 100%;

@@ -7,7 +7,6 @@ const indexPage = () => {
   return (
     <div>
       <TitleNav />
-      <Footer />
     </div>
   )
 }
