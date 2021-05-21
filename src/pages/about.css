@@ -21,6 +21,9 @@
     margin-right: auto;
 	width: 17em;
 }
+.center_text {
+	text-align: center;
+}
 .display_pic {
 	border-radius: 32.8125rem; /* round edges */
 	width: 9rem;
