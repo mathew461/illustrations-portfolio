@@ -1,12 +1,15 @@
 import React from 'react';
-import Header from '../components/Header'
+import Header from '../components/Header';
 import Footer from '../components/Footer';
+import './contact.css';
+
 
 const Contact = () => {
     return (
         <div>
             <Header />
             <form 
+                className="form"
                 name="contact" 
                 method="POST" 
                 data-netlify="true"
@@ -14,16 +17,16 @@ const Contact = () => {
             >
                 <input type="hidden" name="form-name" value="contact" />
                 <p>
-                    <label>Your Name: <input type="text" name="name" placeholder="Your Name" /></label>   
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required />   
                 </p>
                 <p>
-                    <label>Your Email: <input type="email" name="email" /></label>
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required />
                 </p>
                 <p>
-                    <label>Message: <textarea name="message"></textarea></label>
+                    <textarea className="form-control__1" name="message" placeholder="Message" required ></textarea>
                 </p>
                 <p>
-                    <button type="submit">Send</button>
+                    <button type="submit" className="form-control form-submit">Send</button>
                 </p>
             </form>
             <Footer />
