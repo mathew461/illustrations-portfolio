@@ -6,8 +6,8 @@
 .WelcomeTitle {
     position: absolute;
     top: 29%;
-    left: 40%;
-    width: 50%;
+    left: 45%;
+    width: 18.75rem;
     transform: translate(-50%, -50%);
     color: black;
     -webkit-text-fill-color: #fff1e5; /* Will override color (regardless of order) */
@@ -20,10 +20,10 @@
 
 .WelcomeNav {
     position: absolute;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     top: 45%;
-    left: 63%;
-    width: 100%;
+    left: 50%;
+    width: 22rem;
 }
 .WelcomeNav_ul {
     list-style-type: none;
@@ -48,29 +48,28 @@
 
 .WelcomeImage {
     position: absolute;
-    top: 50%;
-    left: 75%;
-    width: 50%;
+    top: 65%;
+    left: 50%;
+    width: 31.25rem;
     transform: translate(-50%, -50%);
-}
 
-.WelcomeImage__Div {
-   position:relative;
-   height: 1000%;
 }
 
 
-    
-
-@media (min-width: 40rem) {
+@media (min-width: 53rem) {
     .WelcomeTitle {
         top: 81%;
-        left: 32%;
+        left: 20%;
+        transform: translate(-50%, -50%);
     }    
     .WelcomeNav {
         top: 100%;
-        left: 32%;
-        width: 50%;
+        left: 22%;
+        transform: translate(-50%, -50%);
+    }      
+    .WelcomeImage {
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
     }
-        
 }

@@ -27,9 +27,7 @@ const TitleNav = () => {
                 </nav>
             </div>
 
-            <div className="WelcomeImage__Div">
-                <img src={SketchArtist} className="WelcomeImage"/>
-            </div>
+            <img src={SketchArtist} className="WelcomeImage"/>
         </div>
     )
 };
