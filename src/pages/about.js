@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import DisplayPic from '../links-and-images/display_pic.jpg';
 import './about.css'
+import './Layout.css';
 
 const About = () => {
     return (

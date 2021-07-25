@@ -3,7 +3,6 @@ import './Header.css';
 import { Link } from 'gatsby';
 import Logo from '../links-and-images/logo.png';
 
-
 const Header = () => {
 
     return (
