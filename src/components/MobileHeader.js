@@ -10,40 +10,52 @@ const Global = createGlobalStyle`
   }
 `
 const MenuIcon = styled.button`
-  position: fixed;
-  top: 2rem;
-  right: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 1.5rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  z-index: 5;
+  @media (min-width: 53rem) {
+    display: none;
+  }
 
-  div {
-    width: 1.5rem;
-    height: 0.2rem;
-    background: black;
-    border-radius: 5px;
-    transform-origin: 1px;
-    position: relative;
-    transition: opacity 300ms, transform 300ms;
+  @media (max-width: 53rem) {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 5;
 
-    :first-child {
-      transform: ${({nav}) => nav ? 'rotate(45deg)' : 'rotate(0)' } 
-    }
+    div {
+      width: 1.5rem;
+      height: 0.2rem;
+      background: black;
+      border-radius: 5px;
+      transform-origin: 1px;
+      position: relative;
+      transition: opacity 300ms, transform 300ms;
 
-    :nth-child(2) {
-      opacity: ${({nav}) => nav ? "0" : "1"}
-    }
-    :nth-child(3) {
-      transform: ${({nav}) => nav ? 'rotate(-45deg)' : 'rotate(0)'}
+      :first-child {
+        transform: ${({nav}) => nav ? 'rotate(45deg)' : 'rotate(0)' } 
+      }
+
+      :nth-child(2) {
+        opacity: ${({nav}) => nav ? "0" : "1"}
+      }
+      :nth-child(3) {
+        transform: ${({nav}) => nav ? 'rotate(-45deg)' : 'rotate(0)'}
+      }
     }
   }
 `
-const MenuLinks = styled.nav`
+const MenuLinks = styled.nav`  
+@media (min-width: 40rem) {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,8 +87,9 @@ const MenuLinks = styled.nav`
       color: black;
     }
   }
-`
+}
 
+`
 const MobileHeader = () => {
   const [nav, showNav] = useState(false)
 
