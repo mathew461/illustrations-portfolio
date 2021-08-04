@@ -10,11 +10,11 @@ const Global = createGlobalStyle`
   }
 `
 const MenuIcon = styled.button`
-  @media (min-width: 53rem) {
+  @media (min-width: 40rem) {
     display: none;
   }
 
-  @media (max-width: 53rem) {
+  @media (max-width: 40rem) {
     position: fixed;
     top: 2rem;
     right: 2rem;
