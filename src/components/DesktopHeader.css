@@ -45,8 +45,6 @@ header {
 	.logo {
 		width: 15rem;
 	}
-}
-@media (min-width: 40rem) {
 	.mobile-hidden {
 		display: inline;
 	}
