@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import DesktopHeader from '../components/DesktopHeader';
 import Footer from '../components/Footer';
 import './contact.css';
 import './Layout.css';
@@ -7,7 +7,7 @@ import './Layout.css';
 const Contact = () => {
     return (
         <div>
-            <Header />
+            <DesktopHeader />
             <form 
                 className="form"
                 name="contact" 

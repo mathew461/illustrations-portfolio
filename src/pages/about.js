@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import DesktopHeader from '../components/DesktopHeader';
 import Footer from '../components/Footer';
 import DisplayPic from '../links-and-images/display_pic.jpg';
 import './about.css'
@@ -8,7 +8,7 @@ import './Layout.css';
 const About = () => {
     return (
         <div>
-            <Header />
+            <DesktopHeader />
            <br/>
             <img 
                 src = {DisplayPic}  

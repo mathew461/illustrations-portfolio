@@ -1,13 +1,13 @@
 import React from "react"
 import './Layout.css';
-import Header from '../components/Header';
+import DesktopHeader from '../components/DesktopHeader';
 import Footer from '../components/Footer';
 import Gallery from '../components/Gallery';
 
 const TheGallery = () => {
   return (
     <div>
-        <Header />
+        <DesktopHeader />
         <Gallery />
     
         <Footer />

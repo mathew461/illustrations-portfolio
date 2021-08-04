@@ -1,16 +1,16 @@
 import React from 'react';
-import './Header.css';
+import './DesktopHeader.css';
 import { Link } from 'gatsby';
 import Logo from '../links-and-images/logo.png';
-import Hamburger from './Hamburger';
+import MobileHeader from './MobileHeader';
 
-const Header = () => {
+const DesktopHeader = () => {
 
     return (
         <div>
-            <Hamburger />
-            <nav>
-                <ul className = "hidden-mobile right header_nav">
+            <MobileHeader />
+            <nav className="hidden-mobile">
+                <ul className = "mobile-hidden right header_nav">
                     <li className = "header_nav__list">
                         <Link className = "header_nav__button" to="/">Home</Link>
                     </li>
@@ -30,4 +30,4 @@ const Header = () => {
     )
 };
 
-export default Header;
+export default DesktopHeader;
