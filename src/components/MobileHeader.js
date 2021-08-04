@@ -10,9 +10,6 @@ const Global = createGlobalStyle`
   }
 `
 const MenuIcon = styled.button`
-  @media (min-width: 40rem) {
-    display: none;
-  }
 
   @media (max-width: 40rem) {
     position: fixed;
@@ -50,9 +47,8 @@ const MenuIcon = styled.button`
   }
 `
 const MenuLinks = styled.nav`
-  @media (min-width: 40rem) {
-    display: none;
-  }
+
+
   @media (max-width: 40rem) {
     display: flex;
     flex-direction: column;
