@@ -8,13 +8,11 @@
 }
 
 /* Logo Heading */
-header {
-	padding-top: 0.5rem;
-}
 .logo {
 	width: 15rem;
 	vertical-align: middle;
 	padding-top: 1.25rem;
+	margin: 0;
 }
 .mobile-hidden {
 	display: none;
