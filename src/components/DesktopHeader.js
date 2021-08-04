@@ -10,7 +10,7 @@ const DesktopHeader = () => {
         <div>
             <MobileHeader />
             <nav className="hidden-mobile">
-                <ul className = "mobile-hidden right header_nav">
+                <ul className = "right header_nav">
                     <li className = "header_nav__list">
                         <Link className = "header_nav__button" to="/">Home</Link>
                     </li>
