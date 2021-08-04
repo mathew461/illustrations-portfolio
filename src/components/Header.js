@@ -2,13 +2,15 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'gatsby';
 import Logo from '../links-and-images/logo.png';
+import Hamburger from './Hamburger';
 
 const Header = () => {
 
     return (
         <div>
+            <Hamburger />
             <nav>
-                <ul className = "right header_nav">
+                <ul className = "hidden-mobile right header_nav">
                     <li className = "header_nav__list">
                         <Link className = "header_nav__button" to="/">Home</Link>
                     </li>
@@ -23,16 +25,9 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-  
-            <button className="toggle-button">
-                <span className="toggle-button__bar"></span>
-                <span className="toggle-button__bar"></span>
-                <span className="toggle-button__bar"></span>
-            </button>		
             <img src={Logo} alt="Mathew Wrigleys Portfolio" className="logo" />	
         </div>
     )
 };
-
 
 export default Header;

@@ -39,28 +39,6 @@ header {
 	font-weight: bolder;
 }
 
-
-/* Toggle Navigation button */
-.toggle-button {
-	width: 2rem;
-	background: transparent;
-	border: none;
-	cursor: pointer;
-	padding-top: 0;
-	padding-bottom: 0;
-	vertical-align: middle;
-} 
-.toggle-button:focus {
-	outline: none;
-}
-.toggle-button__bar {
-	width: 100%;
-	height: 0.2rem;
-	background: #990f3d;
-	display: block;
-	margin: 0.2rem 0;
-}
-
 /* Toggle Navigation screen */
 .mobile-nav__item a {
 	text-decoration: none;
@@ -96,7 +74,6 @@ font-weight: bolder;
 	font-size: 1.5rem;
 }
 
-
 /* .mobile-nav {
 	display: none;
 	position: fixed;
@@ -116,17 +93,18 @@ font-weight: bolder;
 	text-align: center;
 } */
 
+
 @media (min-width: 40rem) {
 	.logo {
 		width: 15rem;
 	}
-}
-@media (min-width: 40rem) {
 	.header_nav__list {
 		padding: 0.7rem;
 	}
-
 	.header_nav__button {
 		font-size: 1rem;		
+	}
+	.hidden-mobile {
+		display: hidden;
 	}
 }

@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Gallery from '../components/Gallery';
 
-const indexPage = () => {
+const TheGallery = () => {
   return (
     <div>
         <Header />
@@ -15,4 +15,4 @@ const indexPage = () => {
   )
 }
 
-export default indexPage;
+export default TheGallery;
