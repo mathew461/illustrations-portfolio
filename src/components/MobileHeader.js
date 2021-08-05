@@ -12,7 +12,7 @@ const Global = createGlobalStyle`
 const MenuIcon = styled.button`
     position: fixed;
     top: 2rem;
-    right: 2rem;
+    right: 29vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
