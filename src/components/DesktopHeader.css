@@ -14,14 +14,17 @@
 	padding-top: 1.25rem;
 	margin: 0;
 }
-.mobile-hidden {
-/* Removed to prevent nav not showing on mobile	display: none; */
-}
+/* .mobile-hidden {
+	display: none;
+} Removed to keep Desktop Nav working on Mobile until Hamburger is fixed.*/
 
-@media (min-width: 40rem) {
-	.mobile-hidden {
-		display: inline;
-	}
+/* @media (min-width: 40rem) {
+		.mobile-hidden {
+			display: inline;
+		}
+	} */
+	
+
 	/* Header Nav */
 	.header_nav__list {
 		padding: 0.7rem;
@@ -80,4 +83,3 @@
 	.mobile-nav__item a {
 		font-size: 1.5rem;
 	}
-}
