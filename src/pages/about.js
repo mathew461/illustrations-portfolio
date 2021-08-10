@@ -27,6 +27,8 @@ const About = () => {
                 <p className = "lower_p">Since my time at university I travelled a bit, lived in Toronto Canada, where I spent most of my time learning the complexities of Coffee. After that I travelled Australia, met a kangaroo but now I have returned to my homeland, England and I very much plan to plant my butt firmly down and concentrate on my career.</p>
                 <p className = "center_text">◆    ◆    ◆</p>
                 <p className = "lower_p">This space is a place for me to showcase my designs, everything you see here I created, even the site itself, I can code too. </p>
+                <br></br>
+                <br></br>
                 
             </div>
             
