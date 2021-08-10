@@ -75,3 +75,9 @@ TestNavWelcomecombine {
         transform: translate(-50%, -50%);
     }
 }
+
+@media (max-width: 30rem) {
+    .WelcomeTitle {
+        top: 17vh;
+    }      
+}
