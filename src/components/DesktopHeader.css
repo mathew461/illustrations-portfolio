@@ -9,7 +9,7 @@
 
 /* Logo Heading */
 .logo {
-	width: 15rem;
+	width: 30vw;
 	vertical-align: middle;
 	padding-top: 1.25rem;
 	margin: 0;
@@ -27,7 +27,7 @@
 
 	/* Header Nav */
 	.header_nav__list {
-		padding: 0.7rem;
+		padding: 0.7vw;
 		display: inline-flex;
 		cursor: pointer;
 	}
@@ -41,7 +41,7 @@
 		text-decoration: none;
 		vertical-align: middle;
 		color: black;
-		font-size: 1rem;
+		font-size: 2vw;
 	}
 	.header_nav__button:hover {
 		text-decoration: underline;
@@ -65,7 +65,7 @@
 	.mobile-nav__item--cta a {
 		color: white;
 		background: #990f3d;
-		padding: 0.5rem 1rem;
+		padding: 1vh 1vw;
 		border-radius: 8px;
 	}
 	.main-nav__item--cta a:hover,
