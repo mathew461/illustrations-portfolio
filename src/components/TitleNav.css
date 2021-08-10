@@ -1,29 +1,26 @@
-.flex-center-vertically {
-    height: 400px;
-    margin-left: 12px;
-    position: relative;
+TestNavWelcomecombine {
+    top: 10vh;
+    left: 27vw;
 }
+
 .WelcomeTitle {
     position: absolute;
-    top: 29%;
-    left: 45%;
-    width: 18.75rem;
-    transform: translate(-50%, -50%);
+    top: 10vh;
+    left: 27vw;
     color: black;
     -webkit-text-fill-color: #fff1e5; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #990f3d;
-    font-size: 80px;
+    font-size: 10vw;
     margin: 0;
     font-family: Cursive;
 }
-
 .WelcomeNav {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 45%;
-    left: 50%;
-    width: 23.5rem;
+    top: 29vh;
+    left: 50vw;
+    width: 50.5vw;
 }
 .WelcomeNav_ul {
     list-style-type: none;
@@ -39,36 +36,42 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: 2vw;
+    font-size: 2vw;
     text-decoration: none;
 } 
 .WelcomeNav_li a:hover {
     background-color: #111111;
 }
-
 .WelcomeImage {
     position: absolute;
-    top: 65%;
-    left: 50%;
-    width: 31.25rem;
+    top: 65vh;
+    left: 50vw;
+    width: 45.25vw;
     transform: translate(-50%, -50%);
 
 }
 
 @media (min-width: 53rem) {
     .WelcomeTitle {
-        top: 81%;
-        left: 20%;
+        top: 40vh;
+        left: 20vw;
         transform: translate(-50%, -50%);
+        font-size: 8vw;
     }    
     .WelcomeNav {
-        top: 100%;
-        left: 22%;
+        top: 55vh;
+        left: 27vw;
         transform: translate(-50%, -50%);
     }      
+    .WelcomeNav_li a {
+        padding: 2vw;
+        font-size: 1.5vw;
+
+    } 
     .WelcomeImage {
-        top: 50%;
-        left: 75%;
+        top: 50vh;
+        left: 75vw;
         transform: translate(-50%, -50%);
     }
 }

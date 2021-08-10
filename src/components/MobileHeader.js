@@ -10,9 +10,14 @@ const Global = createGlobalStyle`
   }
 `
 const MenuIcon = styled.button`
+  @media (min-width: 40rem) {
+    display: none;
+  }
+
+  @media (max-width: 40rem) {
     position: fixed;
     top: 2rem;
-    right: 29vw;
+    right: 12vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -23,7 +28,7 @@ const MenuIcon = styled.button`
     z-index: 5;
 
     div {
-      width: 1.5rem;
+      width: 6.5vw;
       height: 0.2rem;
       background: black;
       border-radius: 5px;
@@ -42,8 +47,15 @@ const MenuIcon = styled.button`
         transform: ${({nav}) => nav ? 'rotate(-45deg)' : 'rotate(0)'}
       }
     }
+  }
 `
 const MenuLinks = styled.nav`  
+@media (min-width: 40rem) {
+  display: none;
+}
+
+@media (max-width: 40rem) {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,6 +87,8 @@ const MenuLinks = styled.nav`
       color: black;
     }
   }
+}
+
 `
 const MobileHeader = () => {
   const [nav, showNav] = useState(false)

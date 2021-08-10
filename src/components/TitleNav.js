@@ -7,7 +7,8 @@ const TitleNav = () => {
 
     return (
         <div>
-            <div className="flex-center-vertically">
+            <div>
+            <div className="TestNavWelcomecombine">
                 <p className="WelcomeTitle">Welcome</p>
                 <nav className="WelcomeNav">
                     <ul className="WelcomeNav_ul">
@@ -25,6 +26,7 @@ const TitleNav = () => {
                         </li>
                     </ul>
                 </nav>
+            </div>    
             </div>
 
             <img src={SketchArtist} className="WelcomeImage"/>
