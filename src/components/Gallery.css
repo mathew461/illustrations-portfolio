@@ -1,12 +1,4 @@
 /*Grid Layout and Lightbox functionality */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 0 10px;
-    grid-auto-rows: 11px;
-    justify-content: center;
-	margin: 1rem;
-}
 .grid img {
     width: 250px;
     grid-row-end: span 2;
@@ -33,4 +25,21 @@
 	max-width: 90%;
 	max-height: 80%;
 	padding: 4px;
+}
+
+
+.grid {
+	display: grid;
+	grid-template-columns: none;
+	grid-gap: 0 10px;
+	grid-auto-rows: 11px;
+	justify-content: center;
+	margin: 1rem;
+}
+
+
+@media (min-width: 30rem) {
+	.grid {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}	
 }
