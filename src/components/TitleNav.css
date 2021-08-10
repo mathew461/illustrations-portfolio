@@ -45,9 +45,9 @@ TestNavWelcomecombine {
 }
 .WelcomeImage {
     position: absolute;
-    top: 65vh;
+    top: 75vh;
     left: 50vw;
-    width: 45.25vw;
+    width: 60vw;
     transform: translate(-50%, -50%);
 
 }
@@ -73,11 +73,26 @@ TestNavWelcomecombine {
         top: 50vh;
         left: 75vw;
         transform: translate(-50%, -50%);
+        width: 45vw;
     }
 }
 
 @media (max-width: 30rem) {
     .WelcomeTitle {
-        top: 17vh;
+        top: 11vh;
+        font-size: 15vw;
+        left: 18vw;
+    }     
+    .WelcomeNav {
+        top: 28vh;
+        left: 52vw;
+        width: 78.5vw;
     }      
+    .WelcomeNav_li a {
+        font-size: 4vw;
+    }  
+    .WelcomeImage {
+        width: 90vw;
+        top: 65vh;
+    }
 }
