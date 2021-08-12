@@ -9,77 +9,89 @@
 
 /* Logo Heading */
 .logo {
-	width: 30vw;
+	width: 50vw;
 	vertical-align: middle;
-	padding-top: 1.25rem;
+	padding: 0.5rem;
 	margin: 0;
 }
 /* .mobile-hidden {
-	display: none;
+display: none;
 } Removed to keep Desktop Nav working on Mobile until Hamburger is fixed.*/
 
 /* @media (min-width: 40rem) {
-		.mobile-hidden {
-			display: inline;
-		}
-	} */
-	
+.mobile-hidden {
+display: inline;
+}
+} */
 
-	/* Header Nav */
-	.header_nav__list {
-		padding: 0.7vw;
-		display: inline-flex;
-		cursor: pointer;
-	}
-	.header_nav {
-		padding: 0;
-		margin: 0rem;
-		padding-top: 1rem;
-	}
-	.header_nav__button {
-		list-style-type: none;
-		text-decoration: none;
-		vertical-align: middle;
-		color: black;
-		font-size: 2vw;
-	}
-	.header_nav__button:hover {
-		text-decoration: underline;
-		color: #990f3d;
-		font-weight: bolder;
-	}
 
-	/* Toggle Navigation screen */
-	.mobile-nav__item a {
-		text-decoration: none;
-		font-weight: bold;
-		padding: 0.2rem 0;
-	}
-
-	.mobile-nav__item a:hover {
+/* Header Nav */
+.header_nav__list {
+	padding: 0.7vw;
+	display: inline-flex;
+	cursor: pointer;
+}
+.header_nav {
+	padding: 0.5rem;
+	margin: 0rem;
+}
+.header_nav__button {
+	list-style-type: none;
+	text-decoration: none;
+	vertical-align: middle;
+	color: black;
+	font-size: 2.5vw;
+}
+.header_nav__button:hover {
 	text-decoration: underline;
 	color: #990f3d;
 	font-weight: bolder;
-	}
+}
 
-	.mobile-nav__item--cta a {
-		color: white;
-		background: #990f3d;
-		padding: 1vh 1vw;
-		border-radius: 8px;
+/* Toggle Navigation screen */
+.mobile-nav__item a {
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0.2rem 0;
+}
+
+.mobile-nav__item a:hover {
+	text-decoration: underline;
+	color: #990f3d;
+	font-weight: bolder;
+}
+
+.mobile-nav__item--cta a {
+	color: white;
+	background: #990f3d;
+	padding: 1vh 1vw;
+	border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active,
+.mobile-nav__item--cta a:hover,
+.mobile-nav__item--cta a:active {
+	color: #ff1b68;
+	background: white;
+	border: none;
+	text-decoration: none;
+}
+.mobile-nav__item {
+	margin: 1rem 0;
+} 
+.mobile-nav__item a {
+	font-size: 1.5rem;
+}
+
+@media (min-width: 40rem) {
+	.header_nav__button {
+		font-size: 2vw;
+	}	
+	.logo {
+		width: 30vw;
+		padding: 1.25rem;
 	}
-	.main-nav__item--cta a:hover,
-	.main-nav__item--cta a:active,
-	.mobile-nav__item--cta a:hover,
-	.mobile-nav__item--cta a:active {
-		color: #ff1b68;
-		background: white;
-		border: none;
-		text-decoration: none;
-	}
-	.mobile-nav__item {
-		margin: 1rem 0;
-	} 
-	.mobile-nav__item a {
-		font-size: 1.5rem;
-	}
+	.header_nav {
+		padding: 0.5rem;
+	}	
+}
