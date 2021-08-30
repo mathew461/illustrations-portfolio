@@ -8,7 +8,7 @@ import AnimalKingdom3 from '../links-and-images/Doctor-Crow.png'
 import AnimalKingdom4 from '../links-and-images/Jack-The-Rabbit.png'
 import AnimalKingdom5 from '../links-and-images/King-Porker.png'
 import AnimalKingdom6 from '../links-and-images/The-Gallant-Bear.png'
-
+import OfficeTable from '../links-and-images/Programmers-Blog-WB.png'
 import ChocoboPrototype from '../links-and-images/Chocobo_Prototype.png'
 import KillTheBear from '../links-and-images/Kill-the-Bear.png'
 import GasmaskCat from '../links-and-images/Gasmask-Cat.png'
@@ -49,6 +49,7 @@ class Gallery extends React.Component {
         return (
             <div>
                 <div className = "grid">
+                    <ImageCard src = {OfficeTable}/>
                     <ImageCard src = {ChocoboPrototype}/>
                     <ImageCard src = {AnimalKingdom1}/> 
                     <ImageCard src = {MonkeyAstronaut}/>
